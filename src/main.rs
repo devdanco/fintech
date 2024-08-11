@@ -5,6 +5,7 @@ mod tx;
 use crate::accounting::Accounts;
 
 fn read_from_stdin(label: &str) -> String {
+    
     let mut buffer = String::new();
     println!("{}", label);
     io::stdin()
